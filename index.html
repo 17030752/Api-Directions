@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api-Directions</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+</head>
+<body>
+    <main class="container">
+        <form action="" id="form">
+            <label for="">
+                Ip del usuario
+                <input 
+                type="text"  
+                id="input" 
+                placeholder="Introduce la ip aqui...." 
+                required>
+                <small>
+                        Por ejemplo: 54.85.132.205
+                </small>
+            </label>
+            <button type="submit" id="submit">
+                Buscar informacion de la IP
+            </button>
+        </form>
+        <div><pre id="results"></pre></div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
